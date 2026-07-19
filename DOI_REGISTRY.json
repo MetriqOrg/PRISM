@@ -1,0 +1,72 @@
+{
+  "status": "reserved-not-published",
+  "reserved_on": "2026-07-18",
+  "zenodo_account": "danielhjeffery",
+  "community": "Metriq PRISM Laboratory",
+  "records": [
+    {
+      "identifier": "MF-PRISM-MATH-2026-01",
+      "version": "1.3",
+      "title": "An Explicit Cantorval Achievement Set with Convergent Consecutive-Term Ratio",
+      "doi": "10.5281/zenodo.21434379",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434379",
+      "published": false
+    },
+    {
+      "identifier": "MF-PRISM-MATH-2026-02",
+      "version": "1.3",
+      "title": "An Achievable Cantorval with Full-Dimensional Boundary",
+      "doi": "10.5281/zenodo.21434547",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434547",
+      "published": false
+    },
+    {
+      "identifier": "MF-PRISM-MATH-2026-03",
+      "version": "1.4",
+      "title": "Every Infinite Achievement Set Is a Sum of Two Achievement Sets of Hausdorff Dimension Zero",
+      "doi": "10.5281/zenodo.21434562",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434562",
+      "published": false
+    },
+    {
+      "identifier": "MF-PRISM-MATH-2026-04",
+      "version": "1.2",
+      "title": "An Achievable Cantorval with Zero-Dimensional Boundary",
+      "doi": "10.5281/zenodo.21434573",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434573",
+      "published": false
+    },
+    {
+      "identifier": "MF-PRISM-MATH-2026-05",
+      "version": "1.2",
+      "title": "A Note on the Literal Formulation of Problem 13 for Fast Achievement-Set Sumsets",
+      "doi": "10.5281/zenodo.21434602",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434602",
+      "published": false
+    },
+    {
+      "identifier": "MF-PRISM-MATH-2026-06",
+      "version": "2.2",
+      "title": "Finite Certificates for Three Unresolved Cardinal-Function Ranges",
+      "doi": "10.5281/zenodo.21434632",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434632",
+      "published": false
+    },
+    {
+      "identifier": "MF-PRISM-MATH-2026-08",
+      "version": "1.2",
+      "title": "Endpoint Walks Evaluate the Complete Homogeneous Symmetric Norms of Path Graphs",
+      "doi": "10.5281/zenodo.21434694",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434694",
+      "published": false
+    },
+    {
+      "identifier": "MF-PRISM-MATH-2026-09",
+      "version": "1.1",
+      "title": "A Bessel-Factorization Proof of Mathar's Recurrence for Type-ace Lattice Walks",
+      "doi": "10.5281/zenodo.21434724",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434724",
+      "published": false
+    }
+  ]
+}

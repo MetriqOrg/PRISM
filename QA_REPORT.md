@@ -1,43 +1,28 @@
-# Quality-control report
+# Release Quality-Control Report
 
-**Canonical papers:** 8<br>
-**Total PDF pages:** 83<br>
-**Release date:** 16 July 2026
+## Scope
 
-## PDF checks
+This report covers the final DOI-bearing candidate builds of Papers 01-06, 08, and 09.
 
-- All eight PDFs open successfully, are unencrypted, contain extractable text, and have no XFA form content.
-- All fonts reported by `pdffonts` are embedded; some are deliberately not subset because they originate in vector figures.
-- Both Poppler and PDFium rendered every page. Side-by-side review found no renderer-specific missing content, clipping, broken glyphs, or legacy-brand residue.
-- Covers, first manuscript pages, figures, disclaimers, references, and final-page footers were inspected page by page.
+## Completed checks for all eight papers
 
-## Reproducibility-package checks
+- The eight controlling DOI values were checked for uniqueness and matched paper by paper.
+- Each final source ZIP was extracted into a clean directory; figure generation, exact/symbolic verification, and LuaLaTeX build targets completed successfully.
+- Paper 09 passed both the supplied exact coefficient/operator verifier and the original SymPy verifier.
+- PDF preflight confirmed all eight files are openable, unencrypted, text-based, letter-size PDFs with the expected pagination.
+- `pdffonts` confirmed that every font is embedded.
+- All 91 pages were rendered and visually inspected for wrapping, clipping, missing glyphs, and figure placement.
+- The eight 300-dpi covers were regenerated from the final PDF page 1.
+- Clean source ZIPs and reviewer packets were regenerated against the final PDFs and pagination.
+- Every archive integrity test, internal archive manifest, and paper-level SHA-256 manifest passed.
+- Placeholder scans covered repository text, PDF text, source ZIPs, and reviewer packets.
 
-- Every verification script was rerun from the cleaned package and completed successfully.
-- Every source package was rebuilt with LuaLaTeX. At 96 dpi, each rebuilt PDF was visually pixel-identical to the corresponding release PDF.
-- CFF metadata parses as YAML; package manifests and SHA-256 checksums were regenerated after final cleanup.
-- No font files are included.
+These checks are document and reproducibility controls, not independent mathematical review.
 
-## Disclaimer checks
+## Paper 09
 
-- MF-MATH-2026-01: source disclaimer match=True; PDF phrase check=True; rebuild changed pages=0.
-- MF-MATH-2026-02: source disclaimer match=True; PDF phrase check=True; rebuild changed pages=0.
-- MF-MATH-2026-03: source disclaimer match=True; PDF phrase check=True; rebuild changed pages=0.
-- MF-MATH-2026-04: source disclaimer match=True; PDF phrase check=True; rebuild changed pages=0.
-- MF-MATH-2026-05: source disclaimer match=True; PDF phrase check=True; rebuild changed pages=0.
-- MF-MATH-2026-06: source disclaimer match=True; PDF phrase check=True; rebuild changed pages=0.
-- MF-MATH-2026-08: source disclaimer match=True; PDF phrase check=True; rebuild changed pages=0.
-- MF-MATH-2026-09: source disclaimer match=True; PDF phrase check=True; rebuild changed pages=0.
+Paper 09 Version 1.1 is complete. Its DOI-bearing nine-page PDF, 300-dpi cover, source/reproducibility ZIP, reviewer packet, metadata, predecessor record, and checksums are installed under `Papers/MF-PRISM-MATH-2026-09/`. Specialist priority review remains outstanding.
 
-## Scope limitation
+## Publication controls
 
-These checks establish release integrity and reproducibility of the packaged files. They do not constitute independent peer review, validate novelty or priority, or replace mathematical examination of the candidate proofs.
-
-## Repository integration verification
-
-- All eight canonical paper-level checksum files validate their release PDFs, cover images, and source packages.
-- All canonical PDFs open successfully, are unencrypted, and match the page counts recorded in `CATALOG.md` and `CATALOG.json`.
-- All canonical and superseded source ZIP files pass archive-integrity testing.
-- Local Markdown links resolve, `CATALOG.json` parses as JSON, and `CITATION.cff` parses as YAML.
-- `Superseded/MF-MATH-2026-01_v1.0-original-release/snapshot/` is byte-for-byte identical to the repository's `v1.0.0` tag.
-- The original tag contains a pre-existing checksum mismatch for `TRADEMARKS.md`; the tagged files are retained unchanged and the recorded and actual hashes are documented in that snapshot's parent README.
+No manuscript is represented as independently validated or peer reviewed. Paper 05 remains `HOLD FOR SOURCE-AUTHOR CLARIFICATION`; its reserved Zenodo draft must remain unpublished unless Daniel H. Jeffery explicitly clears that hold.
