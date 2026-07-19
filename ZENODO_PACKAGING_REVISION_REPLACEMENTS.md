@@ -1,0 +1,16 @@
+# Zenodo Packaging-Revision Replacement List
+
+Replace only the three files listed for each record. Do not change any other artifact or metadata. Paper 05 remains an unpublished hold.
+
+| Identifier | Version DOI | Reviewer packet SHA-256 | SHA256SUMS.txt SHA-256 | zenodo.json SHA-256 |
+|---|---|---|---|---|
+| `MF-PRISM-MATH-2026-01 v1.3` | `10.5281/zenodo.21434379` | `145cffdd7d5454c5dffcfd207dd080d7c17cefa30fd8353bd6e874c192bc5e8e` | `5b3dac9add0532c423cf60bd88e62fd61c6db0ff0e2ac1fe6e582ea04f19c114` | `775ae1c4b7088816825cd3d5486828e84deb3c336cf3002dc8daa3690fd5d047` |
+| `MF-PRISM-MATH-2026-02 v1.3` | `10.5281/zenodo.21434547` | `fcbd9aad15ef9160bc4a9156ab795e960d11be89881b1954a48a63732292411a` | `2505b6ed7f067b108ab217d270a4ddb129e261db045205380c09886757d8ce0e` | `5744f4f23c8804cc190b2ed6cd282dd47ba0010a5f9e6d298ba0efe15c6707a0` |
+| `MF-PRISM-MATH-2026-03 v1.4` | `10.5281/zenodo.21434562` | `afcd465b059847982fb25859dfaff6ba689c1718138d5b311907759c44280c3d` | `83e77a7862d0b1a2d60e13cb83f39106f4ffc254a56c5a3fbc49f8171c4f24eb` | `828ff9a8eb6cc62276c6eb47a7d027dd7a041cef2d331192941ede37e8b41ea6` |
+| `MF-PRISM-MATH-2026-04 v1.2` | `10.5281/zenodo.21434573` | `f9c0a260aa887e2c3cdf47cfdfb753ebeb193f19d6a52926327d64a9a1bff3bc` | `5742e1fa3582fe69cc05483d816b599edae2cc571923371844c4c8db988db6d3` | `bab3380901ee7e7a6ad1aad9d18bdb74d06ff9267fbd550e169378d3299997eb` |
+| `MF-PRISM-MATH-2026-05 v1.2` | `10.5281/zenodo.21434602` | `f821215e5dad095ccf967f9952468c149a5790255aa8271e0ca746d30eeb59b2` | `59e63b6e8e860e7f8a1bc8433b52bd5b005178145a7c22da35884e245f68b7af` | `0b2fb26afe546bef5685e920b29a315b706ab3203b5b2bdbd25ed821c0c8125e` |
+| `MF-PRISM-MATH-2026-06 v2.2` | `10.5281/zenodo.21434632` | `e14a2df585d86257385098aeea5ca09526462cc15662d1cbf0af394e6db6fe18` | `852d298dae389fd7ea3b1e2431f76f3662f535a6a5f47c6073600cfadc06a09c` | `cf29187274c9154ffef14f6c4a2ceac3831ea663f6fac699ebe19235ae3a8414` |
+| `MF-PRISM-MATH-2026-08 v1.2` | `10.5281/zenodo.21434694` | `52c4114a14fe56bdbf0aa448f3964f0ab750f7a1ee4522f60aa13afd8134d4e3` | `20477f4ea586e750f4e44b7e6c7081b0e516b67e85c5e456fd6a06e1df84484b` | `7684b6c7d964e100dd44fc9d5124e55485bc8f582955ada310b4eeaac3393a99` |
+| `MF-PRISM-MATH-2026-09 v1.1` | `10.5281/zenodo.21434724` | `8d815a437a5c4f680e7a1adeece9fde5b3f58628985ed4055a85465716e0ddec` | `e222e5ea3a6caecf2b1bc68cd506802c170c39000176de5f9e8212372ae896e6` | `23191000bd4b7d40b6210b5b6a87707a34a4e12dd5769beb14bcb634dfa91b52` |
+
+Paper 05 must not be published while its clarification hold remains active.

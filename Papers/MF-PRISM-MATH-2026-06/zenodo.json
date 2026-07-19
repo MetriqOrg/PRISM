@@ -35,7 +35,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/MetriqOrg/PRISM/tree/main/Papers/MF-PRISM-MATH-2026-06",
+      "identifier": "https://github.com/MetriqOrg/PRISM/releases/tag/mf-prism-math-2026-06-v2.2-r1",
       "relation": "isSupplementedBy",
       "scheme": "url",
       "resource_type": "software"
