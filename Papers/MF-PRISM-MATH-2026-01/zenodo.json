@@ -1,0 +1,52 @@
+{
+  "title": "An Explicit Cantorval Achievement Set with Convergent Consecutive-Term Ratio",
+  "version": "1.3",
+  "publication_date": "2026-07-18",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Exploratory candidate preprint MF-PRISM-MATH-2026-01, Version 1.3, issued by Metriq PRISM Laboratory. The work has not undergone independent peer review. Generative AI and computational tools were used substantially; their use does not constitute independent validation.",
+  "creators": [
+    {
+      "name": "Metriq PRISM Laboratory",
+      "affiliation": "Metriq Foundation, Inc."
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jeffery, Daniel H.",
+      "type": "ProjectLeader",
+      "orcid": "0009-0001-1200-6042",
+      "affiliation": "Metriq PRISM Laboratory, Metriq Foundation, Inc."
+    },
+    {
+      "name": "Metriq Foundation, Inc.",
+      "type": "RightsHolder"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "achievement sets",
+    "Cantorvals",
+    "subsum sets",
+    "Second Jones Problem",
+    "base-4 expansions"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/MetriqOrg/PRISM/tree/main/Papers/MF-PRISM-MATH-2026-01",
+      "relation": "isSupplementedBy",
+      "scheme": "url",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/MetriqOrg/PRISM/tree/efcc595afd46c6f2c36a3206e4ba8e92814f8790/Papers/MF-MATH-2026-01",
+      "relation": "isNewVersionOf",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "Organizational creator and issuer: Metriq PRISM Laboratory. Corresponding contributor: Daniel H. Jeffery, ORCID 0009-0001-1200-6042, prism@metriq.org. Reserved version DOI: 10.5281/zenodo.21434379. The Zenodo record remains an unpublished draft until the final release files are uploaded and the record is published.",
+  "reserved_doi": "10.5281/zenodo.21434379"
+}

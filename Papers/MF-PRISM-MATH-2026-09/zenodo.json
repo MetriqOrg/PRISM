@@ -1,0 +1,46 @@
+{
+  "title": "A Bessel-Factorization Proof of Mathar's Recurrence for Type-ace Lattice Walks",
+  "version": "1.1",
+  "publication_date": "2026-07-18",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Exploratory candidate proof MF-PRISM-MATH-2026-09, Version 1.1, issued by Metriq PRISM Laboratory. Independent specialist and priority review remain outstanding.",
+  "creators": [
+    {
+      "name": "Metriq PRISM Laboratory",
+      "affiliation": "Metriq Foundation, Inc."
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jeffery, Daniel H.",
+      "type": "ProjectLeader",
+      "orcid": "0009-0001-1200-6042",
+      "affiliation": "Metriq PRISM Laboratory, Metriq Foundation, Inc."
+    },
+    {
+      "name": "Metriq Foundation, Inc.",
+      "type": "RightsHolder"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "lattice walks",
+    "Bessel functions",
+    "D-finite sequences",
+    "recurrences",
+    "Ore operators"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/MetriqOrg/PRISM/tree/main/Papers/MF-PRISM-MATH-2026-09",
+      "relation": "isSupplementedBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Reserved version DOI: 10.5281/zenodo.21434724. The Zenodo record remains an unpublished draft until the final release files are uploaded and the record is published.",
+  "reserved_doi": "10.5281/zenodo.21434724"
+}

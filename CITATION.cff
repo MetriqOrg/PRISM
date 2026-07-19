@@ -1,24 +1,25 @@
 cff-version: 1.2.0
-message: "Please cite the specific paper and version you used. This repository-level citation identifies the Metriq PRISM Laboratory research archive."
+message: "Please cite the exact paper and version reviewed."
 title: "Metriq PRISM Laboratory Mathematics Research Archive"
 type: dataset
-version: "2.1.0"
-date-released: "2026-07-16"
+version: "3.0.0"
+date-released: "2026-07-18"
 authors:
   - name: "Metriq PRISM Laboratory"
     affiliation: "Metriq Foundation, Inc."
-publisher:
-  name: "Metriq Foundation, Inc."
+contributors:
+  - family-names: "Jeffery"
+    given-names: "Daniel H."
+    orcid: "https://orcid.org/0009-0001-1200-6042"
+    affiliation: "Metriq PRISM Laboratory, Metriq Foundation, Inc."
 repository-code: "https://github.com/MetriqOrg/PRISM"
-url: "https://metriq.org"
+url: "https://prism.metriq.org"
 license: "CC-BY-4.0"
 keywords:
   - computationally assisted mathematics
   - achievement sets
   - Cantorvals
-  - spectral graph theory
   - algebraic combinatorics
+  - spectral graph theory
   - lattice walks
-  - Bessel functions
-  - D-finite sequences
   - reproducible research

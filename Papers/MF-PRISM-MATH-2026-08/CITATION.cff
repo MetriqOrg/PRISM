@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Please cite the exact version reviewed."
+title: "Endpoint Walks Evaluate the Complete Homogeneous Symmetric Norms of Path Graphs"
+type: dataset
+version: "1.2"
+date-released: "2026-07-18"
+authors:
+  - name: "Metriq PRISM Laboratory"
+    affiliation: "Metriq Foundation, Inc."
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21434694"
+    description: "Reserved Zenodo DOI for this version"
+  - type: other
+    value: "MF-PRISM-MATH-2026-08"
+    description: "Metriq PRISM Laboratory research-preprint identifier"
+repository-code: "https://github.com/MetriqOrg/PRISM"
+url: "https://prism.metriq.org"
+license: "CC-BY-4.0"
+preferred-citation:
+  type: article
+  title: "Endpoint Walks Evaluate the Complete Homogeneous Symmetric Norms of Path Graphs"
+  authors:
+    - name: "Metriq PRISM Laboratory"
+      affiliation: "Metriq Foundation, Inc."
+  year: 2026
+  month: 7
+  version: "1.2"
+  doi: "10.5281/zenodo.21434694"
+keywords:
+  - "spectral graph theory"
+  - "complete homogeneous symmetric polynomials"
+  - "path graphs"
+  - "lattice paths"
+  - "matrix resolvents"

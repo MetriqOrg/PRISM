@@ -1,84 +1,104 @@
 {
   "publisher": "Metriq PRISM Laboratory",
   "owner": "Metriq Foundation, Inc.",
-  "release": "1.1",
-  "repository_release": "2.1.0",
-  "date": "2026-07-16",
+  "repository_release": "3.0.0",
+  "date": "2026-07-18",
   "papers": [
     {
-      "identifier": "MF-MATH-2026-01",
-      "version": "1.2",
-      "title": "An Explicit Cantorval Achievement Set with Convergent Consecutive-Term Ratio",
-      "date": "2026-07-16",
-      "original_publication_date": "2026-07-15",
-      "original_version": "1.0",
-      "original_release_tag": "v1.0.0",
-      "pages": 9,
-      "status": "candidate-preprint-not-peer-reviewed",
-      "folder": "Papers/MF-MATH-2026-01"
-    },
-    {
-      "identifier": "MF-MATH-2026-02",
-      "version": "1.2",
-      "title": "An Achievable Cantorval with Full-Dimensional Boundary",
-      "date": "2026-07-16",
-      "pages": 12,
-      "status": "candidate-preprint-not-peer-reviewed",
-      "folder": "Papers/MF-MATH-2026-02"
-    },
-    {
-      "identifier": "MF-MATH-2026-03",
+      "identifier": "MF-PRISM-MATH-2026-01",
+      "former_identifier": "MF-MATH-2026-01",
       "version": "1.3",
+      "former_version": "1.2",
+      "title": "An Explicit Cantorval Achievement Set with Convergent Consecutive-Term Ratio",
+      "status": "candidate-preprint-not-peer-reviewed",
+      "internal_disposition": "PROCEED WITH MINOR CORRECTIONS",
+      "folder": "Papers/MF-PRISM-MATH-2026-01",
+      "doi": "10.5281/zenodo.21434379",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434379"
+    },
+    {
+      "identifier": "MF-PRISM-MATH-2026-02",
+      "former_identifier": "MF-MATH-2026-02",
+      "version": "1.3",
+      "former_version": "1.2",
+      "title": "An Achievable Cantorval with Full-Dimensional Boundary",
+      "status": "candidate-preprint-not-peer-reviewed",
+      "internal_disposition": "SPECIALIST REVIEW REQUIRED",
+      "folder": "Papers/MF-PRISM-MATH-2026-02",
+      "doi": "10.5281/zenodo.21434547",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434547"
+    },
+    {
+      "identifier": "MF-PRISM-MATH-2026-03",
+      "former_identifier": "MF-MATH-2026-03",
+      "version": "1.4",
+      "former_version": "1.3",
       "title": "Every Infinite Achievement Set Is a Sum of Two Achievement Sets of Hausdorff Dimension Zero",
-      "date": "2026-07-16",
-      "pages": 12,
       "status": "candidate-preprint-not-peer-reviewed",
-      "folder": "Papers/MF-MATH-2026-03"
+      "internal_disposition": "PROCEED WITH MINOR CORRECTIONS",
+      "folder": "Papers/MF-PRISM-MATH-2026-03",
+      "doi": "10.5281/zenodo.21434562",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434562"
     },
     {
-      "identifier": "MF-MATH-2026-04",
-      "version": "1.1",
+      "identifier": "MF-PRISM-MATH-2026-04",
+      "former_identifier": "MF-MATH-2026-04",
+      "version": "1.2",
+      "former_version": "1.1",
       "title": "An Achievable Cantorval with Zero-Dimensional Boundary",
-      "date": "2026-07-16",
-      "pages": 12,
       "status": "candidate-preprint-not-peer-reviewed",
-      "folder": "Papers/MF-MATH-2026-04"
+      "internal_disposition": "SPECIALIST REVIEW REQUIRED",
+      "folder": "Papers/MF-PRISM-MATH-2026-04",
+      "doi": "10.5281/zenodo.21434573",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434573"
     },
     {
-      "identifier": "MF-MATH-2026-05",
-      "version": "1.1",
-      "title": "Sharpness of the Exponential Constant in a Sumset Criterion for Fast Achievement Sets",
-      "date": "2026-07-16",
-      "pages": 9,
+      "identifier": "MF-PRISM-MATH-2026-05",
+      "former_identifier": "MF-MATH-2026-05",
+      "version": "1.2",
+      "former_version": "1.1",
+      "title": "A Note on the Literal Formulation of Problem 13 for Fast Achievement-Set Sumsets",
       "status": "candidate-preprint-not-peer-reviewed",
-      "folder": "Papers/MF-MATH-2026-05"
+      "internal_disposition": "HOLD FOR SOURCE-AUTHOR CLARIFICATION",
+      "folder": "Papers/MF-PRISM-MATH-2026-05",
+      "doi": "10.5281/zenodo.21434602",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434602"
     },
     {
-      "identifier": "MF-MATH-2026-06",
-      "version": "2.1",
+      "identifier": "MF-PRISM-MATH-2026-06",
+      "former_identifier": "MF-MATH-2026-06",
+      "version": "2.2",
+      "former_version": "2.1",
       "title": "Finite Certificates for Three Unresolved Cardinal-Function Ranges",
-      "date": "2026-07-16",
-      "pages": 10,
       "status": "candidate-preprint-not-peer-reviewed",
-      "folder": "Papers/MF-MATH-2026-06"
+      "internal_disposition": "PROCEED - HIGHEST CURRENT CONFIDENCE",
+      "folder": "Papers/MF-PRISM-MATH-2026-06",
+      "doi": "10.5281/zenodo.21434632",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434632"
     },
     {
-      "identifier": "MF-MATH-2026-08",
-      "version": "1.1",
+      "identifier": "MF-PRISM-MATH-2026-08",
+      "former_identifier": "MF-MATH-2026-08",
+      "version": "1.2",
+      "former_version": "1.1",
       "title": "Endpoint Walks Evaluate the Complete Homogeneous Symmetric Norms of Path Graphs",
-      "date": "2026-07-16",
-      "pages": 11,
       "status": "candidate-preprint-not-peer-reviewed",
-      "folder": "Papers/MF-MATH-2026-08"
+      "internal_disposition": "PROCEED WITH MINOR CORRECTIONS",
+      "folder": "Papers/MF-PRISM-MATH-2026-08",
+      "doi": "10.5281/zenodo.21434694",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434694"
     },
     {
-      "identifier": "MF-MATH-2026-09",
-      "version": "1.0",
+      "identifier": "MF-PRISM-MATH-2026-09",
+      "former_identifier": "MF-MATH-2026-09",
+      "version": "1.1",
+      "former_version": "1.0",
       "title": "A Bessel-Factorization Proof of Mathar's Recurrence for Type-ace Lattice Walks",
-      "date": "2026-07-16",
-      "pages": 8,
       "status": "candidate-preprint-not-peer-reviewed",
-      "folder": "Papers/MF-MATH-2026-09"
+      "internal_disposition": "PROCEED WITH MINOR METADATA CORRECTIONS",
+      "folder": "Papers/MF-PRISM-MATH-2026-09",
+      "doi": "10.5281/zenodo.21434724",
+      "doi_url": "https://doi.org/10.5281/zenodo.21434724"
     }
   ]
 }

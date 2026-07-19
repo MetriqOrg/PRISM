@@ -1,45 +1,28 @@
 # Repository Changelog
 
-All notable repository-level changes are recorded here. Paper-specific mathematical changes belong in the paper directory and source package changelog.
-
-## [Unreleased]
-
-No unreleased repository-level changes.
-
-## [2.1.0] - 2026-07-16
-
-### Added
-- MF-MATH-2026-09, Version 1.0, with its canonical PDF, cover, source/reproducibility package, and checksums.
-- Exact verification of the Type-ace lattice-walk coefficients, both recurrences through `n=80`, and the Ore-operator factorization.
+## [3.0.0] - 2026-07-18
 
 ### Changed
-- Advanced the mathematics archive to Version 1.1 and added MF-MATH-2026-09 to the catalog, research-status register, citation metadata, release notes, and quality-control report.
+- Migrated the mathematics series from `MF-MATH` to `MF-PRISM-MATH` while preserving predecessor records.
+- Added organizational-creator and corresponding-contributor metadata.
+- Updated the canonical site to `prism.metriq.org`.
+- Added paper-specific Zenodo metadata, CFF files, reviewer packets, and reserved version DOIs.
+- Applied internal-audit corrections to Papers 01-06 and 08.
+- Completed the Paper 09 source-level migration, exact verification, clean LuaLaTeX rebuild, cover, source package, reviewer packet, and checksums.
+- Rebuilt all eight DOI-bearing candidate editions from clean source and refreshed their release artifacts.
+
+### Reserved DOIs
+- `MF-PRISM-MATH-2026-01`: `10.5281/zenodo.21434379`
+- `MF-PRISM-MATH-2026-02`: `10.5281/zenodo.21434547`
+- `MF-PRISM-MATH-2026-03`: `10.5281/zenodo.21434562`
+- `MF-PRISM-MATH-2026-04`: `10.5281/zenodo.21434573`
+- `MF-PRISM-MATH-2026-05`: `10.5281/zenodo.21434602`
+- `MF-PRISM-MATH-2026-06`: `10.5281/zenodo.21434632`
+- `MF-PRISM-MATH-2026-08`: `10.5281/zenodo.21434694`
+- `MF-PRISM-MATH-2026-09`: `10.5281/zenodo.21434724`
+
+### Held
+- Paper 05 remains an interpretation note pending clarification from the source authors.
 
 ### Preserved
-- MF-MATH-2026-01 retains its original Version 1.0 publication date of 15 July 2026 and its preserved tagged and superseded-release records.
-
-## [2.0.0] - 2026-07-16
-
-### Added
-- Initial canonical Metriq PRISM Laboratory mathematics archive.
-- Seven current manuscripts and associated source/reproducibility packages.
-- Consolidated MF-MATH-2026-06 release.
-- Identifier and supersession record.
-- Split-license and trademark notices.
-- Canonical repository README and public research-status register.
-- Contribution, proof-review, erratum, and pull-request procedures.
-- Repository-level citation metadata, Git attributes, and TeX-focused ignore rules.
-
-### Changed
-- Reorganized the repository around the Metriq PRISM Laboratory identity and canonical `Papers/` structure.
-- Updated MF-MATH-2026-01 from Version 1.0 to the audited Version 1.2 release.
-
-### Preserved
-- Retained the original MF-MATH-2026-01 Version 1.0 publication in the `v1.0.0` tag, full Git history, and `Superseded/MF-MATH-2026-01_v1.0-original-release/`.
-- Retained its original public release date of 15 July 2026 while recording 16 July 2026 as the Version 1.2 release date.
-
-## [1.0.0] - 2026-07-15
-
-### Added
-- First public release of MF-MATH-2026-01, Version 1.0.
-- Original paper PDF, source, verification code, licenses, checksums, and build instructions.
+- All historical identifiers, versions, publication dates, and the Paper 06 consolidation record.
