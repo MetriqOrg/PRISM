@@ -10,7 +10,7 @@ authors:
 identifiers:
   - type: doi
     value: "10.5281/zenodo.21434573"
-    description: "Reserved Zenodo DOI for this version"
+    description: "Zenodo DOI for this version"
   - type: other
     value: "MF-PRISM-MATH-2026-04"
     description: "Metriq PRISM Laboratory research-preprint identifier"

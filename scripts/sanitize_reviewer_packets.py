@@ -51,14 +51,14 @@ ENTRY_RENAMES = {
 }
 
 PAPER_METADATA = {
-    "01": ("1.3", "10.5281/zenodo.21434379", "mf-prism-math-2026-01-v1.3-r1"),
-    "02": ("1.3", "10.5281/zenodo.21434547", "mf-prism-math-2026-02-v1.3-r1"),
-    "03": ("1.4", "10.5281/zenodo.21434562", "mf-prism-math-2026-03-v1.4-r1"),
-    "04": ("1.2", "10.5281/zenodo.21434573", "mf-prism-math-2026-04-v1.2-r1"),
-    "05": ("1.2", "10.5281/zenodo.21434602", "mf-prism-math-2026-05-v1.2-r1"),
-    "06": ("2.2", "10.5281/zenodo.21434632", "mf-prism-math-2026-06-v2.2-r1"),
-    "08": ("1.2", "10.5281/zenodo.21434694", "mf-prism-math-2026-08-v1.2-r1"),
-    "09": ("1.1", "10.5281/zenodo.21434724", "mf-prism-math-2026-09-v1.1-r1"),
+    "01": ("1.3", "10.5281/zenodo.21434379", "mf-prism-math-2026-01-v1.3-r2"),
+    "02": ("1.3", "10.5281/zenodo.21434547", "mf-prism-math-2026-02-v1.3-r2"),
+    "03": ("1.4", "10.5281/zenodo.21434562", "mf-prism-math-2026-03-v1.4-r2"),
+    "04": ("1.2", "10.5281/zenodo.21434573", "mf-prism-math-2026-04-v1.2-r2"),
+    "05": ("1.2", "10.5281/zenodo.21434602", "mf-prism-math-2026-05-v1.2-r2"),
+    "06": ("2.2", "10.5281/zenodo.21434632", "mf-prism-math-2026-06-v2.2-r2"),
+    "08": ("1.2", "10.5281/zenodo.21434694", "mf-prism-math-2026-08-v1.2-r2"),
+    "09": ("1.1", "10.5281/zenodo.21434724", "mf-prism-math-2026-09-v1.1-r2"),
 }
 
 
@@ -274,20 +274,20 @@ def write_replacement_list() -> None:
     lines = [
         "# Zenodo Packaging-Revision Replacement List",
         "",
-        "Replace only the three files listed for each record. Do not change any other artifact or metadata. Paper 05 remains an unpublished hold.",
+        "Replace only `CITATION.cff`, `SHA256SUMS.txt`, and `zenodo.json` for each record. Do not change any other artifact. Paper 05 remains an unpublished hold.",
         "",
-        "| Identifier | Version DOI | Reviewer packet SHA-256 | SHA256SUMS.txt SHA-256 | zenodo.json SHA-256 |",
+        "| Identifier | Version DOI | CITATION.cff SHA-256 | SHA256SUMS.txt SHA-256 | zenodo.json SHA-256 |",
         "|---|---|---|---|---|",
     ]
     for paper_id in PAPER_IDS:
         version, doi, _tag = PAPER_METADATA[paper_id]
         paper_dir = ROOT / "Papers" / f"MF-PRISM-MATH-2026-{paper_id}"
-        packet = next(paper_dir.glob("*_Reviewer_Packet_*.zip"))
+        citation = paper_dir / "CITATION.cff"
         sums = paper_dir / "SHA256SUMS.txt"
         zenodo = paper_dir / "zenodo.json"
         lines.append(
             f"| `MF-PRISM-MATH-2026-{paper_id} v{version}` | `{doi}` | "
-            f"`{sha256(packet)}` | `{sha256(sums)}` | `{sha256(zenodo)}` |"
+            f"`{sha256(citation)}` | `{sha256(sums)}` | `{sha256(zenodo)}` |"
         )
     lines.extend(["", "Paper 05 must not be published while its clarification hold remains active.", ""])
     (ROOT / "ZENODO_PACKAGING_REVISION_REPLACEMENTS.md").write_text(

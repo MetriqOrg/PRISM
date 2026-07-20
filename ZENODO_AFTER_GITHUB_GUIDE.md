@@ -1,6 +1,6 @@
-# Completing the Zenodo drafts after the GitHub migration
+# Completing Zenodo metadata after the GitHub migration
 
-The eight version DOIs have already been reserved. Do not create replacement records.
+The eight version DOI values have already been established. Do not create replacement records.
 
 ## Wait for Codex and GitHub first
 
@@ -11,10 +11,10 @@ For each paper, wait until:
 - the final PDF, source ZIP, reviewer packet, and checksums have been generated from the merged source;
 - the final upload manifest matches those files.
 
-## Complete each draft
+## Complete each record
 
-1. Open the existing unpublished draft in the `danielhjeffery` Zenodo account.
-2. Confirm the reserved DOI matches `ZENODO_DOI_MAPPING.json`.
+1. Open the existing record in the `danielhjeffery` Zenodo account. Paper 06 is published; the other seven records remain drafts.
+2. Confirm the version DOI matches `ZENODO_DOI_MAPPING.json`.
 3. Creator: `Metriq PRISM Laboratory` as an organization, affiliation `Metriq Foundation, Inc.`
 4. Contributor: `Jeffery, Daniel H.`, role `Project leader`, ORCID `0009-0001-1200-6042`.
 5. Resource type: `Publication - Preprint`.
@@ -23,7 +23,7 @@ For each paper, wait until:
 8. Confirm license `CC BY 4.0` for the manuscript. The source archive contains the separate MIT notice for code.
 9. Add the Metriq PRISM Laboratory community when available.
 10. Preview the citation and file list.
-11. Publish the draft only when the matching GitHub release is public.
+11. Save metadata and file corrections without publishing unless publication is explicitly authorized.
 
 ## Paper 05
 

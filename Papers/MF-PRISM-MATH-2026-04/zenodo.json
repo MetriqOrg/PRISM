@@ -2,6 +2,7 @@
   "title": "An Achievable Cantorval with Zero-Dimensional Boundary",
   "version": "1.2",
   "publication_date": "2026-07-18",
+  "publisher": "Metriq Foundation, Inc.",
   "upload_type": "publication",
   "publication_type": "preprint",
   "description": "Exploratory candidate preprint MF-PRISM-MATH-2026-04, Version 1.2, issued by Metriq PRISM Laboratory. The work has not undergone independent peer review. Generative AI and computational tools were used substantially; their use does not constitute independent validation.",
@@ -35,7 +36,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/MetriqOrg/PRISM/releases/tag/mf-prism-math-2026-04-v1.2-r1",
+      "identifier": "https://github.com/MetriqOrg/PRISM/releases/tag/mf-prism-math-2026-04-v1.2-r2",
       "relation": "isSupplementedBy",
       "scheme": "url",
       "resource_type": "software"
@@ -47,6 +48,6 @@
       "resource_type": "publication-preprint"
     }
   ],
-  "notes": "Organizational creator and issuer: Metriq PRISM Laboratory. Corresponding contributor: Daniel H. Jeffery, ORCID 0009-0001-1200-6042, prism@metriq.org. Reserved version DOI: 10.5281/zenodo.21434573. The Zenodo record remains an unpublished draft until the final release files are uploaded and the record is published.",
-  "reserved_doi": "10.5281/zenodo.21434573"
+  "notes": "Organizational creator and issuer: Metriq PRISM Laboratory. Corresponding contributor: Daniel H. Jeffery, ORCID 0009-0001-1200-6042, prism@metriq.org. Version DOI: 10.5281/zenodo.21434573.",
+  "doi": "10.5281/zenodo.21434573"
 }
